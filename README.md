@@ -1,4 +1,4 @@
-introvert-app
+<b> NotIntrovert_App <b>
 
 Never lose touch, even when you don’t care to respond.
 
@@ -52,7 +52,9 @@ I don’t care about instant replies. I care about not burning bridges. This app
 
 Installation & Usage
 
-(Add your installation instructions here — web and mobile builds, dependencies, etc.)
+Open sourced since i didn't deployed it, you can run it on your computer and/or patch it on your mobile.
+I'll try to add more social network possibilities if needed, currently have : Messages, Messenger, Instagram, Snapchat, GMail, Snapchat, Discord, Telegram, Whatsapp.
+Just add your priorities contact and link their social ID with the app, set timer as you prefer and get friendly reminder when you should respond to them.
 
 ⸻
 
