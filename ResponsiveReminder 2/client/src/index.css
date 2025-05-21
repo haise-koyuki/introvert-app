@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 210 20% 98%;
+  --foreground: 20 14.3% 4.1%;
+  --card: 0 0% 100%;
+  --card-foreground: 20 14.3% 4.1%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 20 14.3% 4.1%;
+  --primary: 235 38% 22%;  /* Changed to #22254E */
+  --primary-foreground: 211 100% 99%;
+  --secondary: 180 100% 40%;
+  --secondary-foreground: 24 9.8% 10%;
+  --muted: 60 4.8% 95.9%;
+  --muted-foreground: 25 5.3% 44.7%;
+  --accent: 60 4.8% 95.9%;
+  --accent-foreground: 24 9.8% 10%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 60 9.1% 97.8%;
+  --border: 20 5.9% 90%;
+  --input: 20 5.9% 90%;
+  --ring: 235 38% 22%;  /* Changed to #22254E */
+  --radius: 0.5rem;
+  
+  /* App-specific colors */
+  --priority1: 0 100% 67%;
+  --priority2: 35 100% 62%;
+  --priority3: 150 100% 68%;
+  --sidebar-background: 0 0% 100%;
+  --sidebar-foreground: 20 14.3% 4.1%;
+  --sidebar-primary: 235 38% 22%;  /* Changed to #22254E */
+  --sidebar-primary-foreground: 211 100% 99%;
+  --sidebar-accent: 60 4.8% 95.9%;
+  --sidebar-accent-foreground: 24 9.8% 10%;
+  --sidebar-border: 20 5.9% 90%;
+  --sidebar-ring: 235 38% 22%;  /* Changed to #22254E */
+  --chart-1: 0 100% 67%;
+  --chart-2: 35 100% 62%;
+  --chart-3: 150 100% 68%;
+  --chart-4: 235 38% 22%;  /* Changed to #22254E */
+  --chart-5: 180 100% 40%;
+}
+  
+.dark {
+  --background: 240 10% 3.9%;
+  --foreground: 0 0% 98%;
+  --card: 240 10% 3.9%;
+  --card-foreground: 0 0% 98%;
+  --popover: 240 10% 3.9%;
+  --popover-foreground: 0 0% 98%;
+  --primary: 235 38% 35%;  /* Lighter version of #22254E for dark mode */
+  --primary-foreground: 211 100% 99%;
+  --secondary: 180 100% 40%;
+  --secondary-foreground: 0 0% 98%;
+  --muted: 240 3.7% 15.9%;
+  --muted-foreground: 240 5% 64.9%;
+  --accent: 240 3.7% 15.9%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 240 3.7% 15.9%;
+  --input: 240 3.7% 15.9%;
+  --ring: 235 38% 45%;  /* Lighter version of #22254E for dark mode */
+  
+  /* App-specific colors */
+  --priority1: 0 100% 67%;
+  --priority2: 35 100% 62%;
+  --priority3: 150 100% 68%;
+  --sidebar-background: 240 10% 3.9%;
+  --sidebar-foreground: 0 0% 98%;
+  --sidebar-primary: 235 38% 35%;  /* Lighter version of #22254E for dark mode */
+  --sidebar-primary-foreground: 211 100% 99%;
+  --sidebar-accent: 240 3.7% 15.9%;
+  --sidebar-accent-foreground: 0 0% 98%;
+  --sidebar-border: 240 3.7% 15.9%;
+  --sidebar-ring: 235 38% 45%;  /* Lighter version of #22254E for dark mode */
+  --chart-1: 0 100% 67%;
+  --chart-2: 35 100% 62%;
+  --chart-3: 150 100% 68%;
+  --chart-4: 235 38% 35%;  /* Lighter version of #22254E for dark mode */
+  --chart-5: 180 100% 40%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+.priority-1 {
+  @apply border-l-4 border-[hsl(var(--priority1))];
+}
+
+.priority-2 {
+  @apply border-l-4 border-[hsl(var(--priority2))];
+}
+
+.priority-3 {
+  @apply border-l-4 border-[hsl(var(--priority3))];
+}
+
+.tab-active {
+  @apply text-primary border-b-2 border-primary;
+}
