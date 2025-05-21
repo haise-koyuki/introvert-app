@@ -8,6 +8,7 @@ import NotFound from "@/pages/not-found";
 import Dashboard from "@/pages/dashboard";
 import Contacts from "@/pages/contacts";
 import Settings from "@/pages/settings";
+import Connections from "@/pages/connections";
 import AppBar from "@/components/AppBar";
 import BottomNavigation from "@/components/BottomNavigation";
 import AddContactModal from "@/components/AddContactModal";
@@ -27,6 +28,9 @@ function Router() {
           </Route>
           <Route path="/contacts">
             <Contacts />
+          </Route>
+          <Route path="/connections">
+            <Connections />
           </Route>
           <Route path="/settings">
             <Settings />

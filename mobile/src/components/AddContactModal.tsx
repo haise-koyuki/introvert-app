@@ -51,6 +51,11 @@ export default function AddContactModal({
     { name: "Messenger", icon: "logo-facebook" },
     { name: "Instagram", icon: "logo-instagram" },
     { name: "Snapchat", icon: "logo-snapchat" },
+    { name: "Discord", icon: "logo-discord" },
+    { name: "Telegram", icon: "paper-plane" },
+    { name: "Gmail", icon: "mail" },
+    { name: "Twitter", icon: "logo-twitter" },
+    { name: "LinkedIn", icon: "logo-linkedin" },
   ];
   
   // Time reminder options
@@ -292,7 +297,7 @@ export default function AddContactModal({
               <Ionicons
                 name={app.icon}
                 size={24}
-                color={(formData.apps || []).includes(app.name) ? '#7c3aed' : '#6b7280'}
+                color={(formData.apps || []).includes(app.name) ? '#22254E' : '#6b7280'}
                 style={styles.appIcon}
               />
               <Text
@@ -417,14 +422,14 @@ const styles = StyleSheet.create({
   },
   activeTab: {
     borderBottomWidth: 2,
-    borderBottomColor: '#7c3aed',
+    borderBottomColor: '#22254E',
   },
   tabText: {
     color: '#6b7280',
     fontWeight: '500',
   },
   activeTabText: {
-    color: '#7c3aed',
+    color: '#22254E',
   },
   tabContent: {
     padding: 16,
@@ -513,7 +518,7 @@ const styles = StyleSheet.create({
     color: '#6b7280',
   },
   appNameActive: {
-    color: '#7c3aed',
+    color: '#22254E',
     fontWeight: '500',
   },
   buttonRow: {
@@ -522,7 +527,7 @@ const styles = StyleSheet.create({
     marginTop: 24,
   },
   nextButton: {
-    backgroundColor: '#7c3aed',
+    backgroundColor: '#22254E',
     borderRadius: 8,
     paddingVertical: 12,
     paddingHorizontal: 16,
@@ -551,7 +556,7 @@ const styles = StyleSheet.create({
     marginLeft: 6,
   },
   saveButton: {
-    backgroundColor: '#7c3aed',
+    backgroundColor: '#22254E',
     borderRadius: 8,
     paddingVertical: 12,
     paddingHorizontal: 16,

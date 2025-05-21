@@ -57,7 +57,12 @@ export default function AddContactModal({ isOpen, onClose }: AddContactModalProp
     { name: "WhatsApp", icon: "chat" },
     { name: "Messenger", icon: "alternate_email" },
     { name: "Instagram", icon: "photo_camera" },
-    { name: "Snapchat", icon: "filter_drama" }
+    { name: "Snapchat", icon: "filter_drama" },
+    { name: "Discord", icon: "headset" },
+    { name: "Telegram", icon: "send" },
+    { name: "Gmail", icon: "mail" },
+    { name: "Twitter", icon: "tag" },
+    { name: "LinkedIn", icon: "work" }
   ];
   
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {

@@ -246,7 +246,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
   },
   respondButton: {
-    backgroundColor: '#7c3aed',
+    backgroundColor: '#22254E',
     paddingVertical: 6,
     paddingHorizontal: 12,
     borderRadius: 16,

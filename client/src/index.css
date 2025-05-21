@@ -9,7 +9,7 @@
   --card-foreground: 20 14.3% 4.1%;
   --popover: 0 0% 100%;
   --popover-foreground: 20 14.3% 4.1%;
-  --primary: 262 83% 58%;
+  --primary: 235 38% 22%;  /* Changed to #22254E */
   --primary-foreground: 211 100% 99%;
   --secondary: 180 100% 40%;
   --secondary-foreground: 24 9.8% 10%;
@@ -21,7 +21,7 @@
   --destructive-foreground: 60 9.1% 97.8%;
   --border: 20 5.9% 90%;
   --input: 20 5.9% 90%;
-  --ring: 262 83% 58%;
+  --ring: 235 38% 22%;  /* Changed to #22254E */
   --radius: 0.5rem;
   
   /* App-specific colors */
@@ -30,16 +30,16 @@
   --priority3: 150 100% 68%;
   --sidebar-background: 0 0% 100%;
   --sidebar-foreground: 20 14.3% 4.1%;
-  --sidebar-primary: 262 83% 58%;
+  --sidebar-primary: 235 38% 22%;  /* Changed to #22254E */
   --sidebar-primary-foreground: 211 100% 99%;
   --sidebar-accent: 60 4.8% 95.9%;
   --sidebar-accent-foreground: 24 9.8% 10%;
   --sidebar-border: 20 5.9% 90%;
-  --sidebar-ring: 262 83% 58%;
+  --sidebar-ring: 235 38% 22%;  /* Changed to #22254E */
   --chart-1: 0 100% 67%;
   --chart-2: 35 100% 62%;
   --chart-3: 150 100% 68%;
-  --chart-4: 262 83% 58%;
+  --chart-4: 235 38% 22%;  /* Changed to #22254E */
   --chart-5: 180 100% 40%;
 }
   
@@ -50,7 +50,7 @@
   --card-foreground: 0 0% 98%;
   --popover: 240 10% 3.9%;
   --popover-foreground: 0 0% 98%;
-  --primary: 262 83% 58%;
+  --primary: 235 38% 35%;  /* Lighter version of #22254E for dark mode */
   --primary-foreground: 211 100% 99%;
   --secondary: 180 100% 40%;
   --secondary-foreground: 0 0% 98%;
@@ -62,7 +62,7 @@
   --destructive-foreground: 0 0% 98%;
   --border: 240 3.7% 15.9%;
   --input: 240 3.7% 15.9%;
-  --ring: 240 4.9% 83.9%;
+  --ring: 235 38% 45%;  /* Lighter version of #22254E for dark mode */
   
   /* App-specific colors */
   --priority1: 0 100% 67%;
@@ -70,16 +70,16 @@
   --priority3: 150 100% 68%;
   --sidebar-background: 240 10% 3.9%;
   --sidebar-foreground: 0 0% 98%;
-  --sidebar-primary: 262 83% 58%;
+  --sidebar-primary: 235 38% 35%;  /* Lighter version of #22254E for dark mode */
   --sidebar-primary-foreground: 211 100% 99%;
   --sidebar-accent: 240 3.7% 15.9%;
   --sidebar-accent-foreground: 0 0% 98%;
   --sidebar-border: 240 3.7% 15.9%;
-  --sidebar-ring: 240 4.9% 83.9%;
+  --sidebar-ring: 235 38% 45%;  /* Lighter version of #22254E for dark mode */
   --chart-1: 0 100% 67%;
   --chart-2: 35 100% 62%;
   --chart-3: 150 100% 68%;
-  --chart-4: 262 83% 58%;
+  --chart-4: 235 38% 35%;  /* Lighter version of #22254E for dark mode */
   --chart-5: 180 100% 40%;
 }
 

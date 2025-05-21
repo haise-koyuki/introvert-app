@@ -53,10 +53,10 @@ export default function App() {
                       
                       return <Ionicons name={iconName} size={size} color={color} />;
                     },
-                    tabBarActiveTintColor: '#7c3aed', // Purple color from your web app
+                    tabBarActiveTintColor: '#22254E', // Blue color as requested
                     tabBarInactiveTintColor: 'gray',
                     headerStyle: {
-                      backgroundColor: '#7c3aed', // Purple color
+                      backgroundColor: '#22254E', // Blue color
                     },
                     headerTintColor: '#fff',
                     headerTitleStyle: {

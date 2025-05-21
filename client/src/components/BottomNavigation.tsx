@@ -30,6 +30,13 @@ export default function BottomNavigation({ activeTab, onTabChange }: BottomNavig
         <span className="text-xs mt-1">Contacts</span>
       </button>
       <button 
+        className={`flex flex-col items-center justify-center py-2 px-4 ${activeTab === 'connections' ? 'text-primary' : 'text-gray-500'}`}
+        onClick={() => handleTabClick('connections', '/connections')}
+      >
+        <span className="material-icons">link</span>
+        <span className="text-xs mt-1">Connect</span>
+      </button>
+      <button 
         className={`flex flex-col items-center justify-center py-2 px-4 ${activeTab === 'settings' ? 'text-primary' : 'text-gray-500'}`}
         onClick={() => handleTabClick('settings', '/settings')}
       >
